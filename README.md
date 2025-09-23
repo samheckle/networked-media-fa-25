@@ -31,7 +31,7 @@
     * [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
 
 ## Time
-[Time demo]()  
+[Time demo](./class-demos/class7)  
 [Time notes](../notes/time.md)
 ### Review Material
 * MDN [`Date` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
