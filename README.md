@@ -1,21 +1,21 @@
 # Technical Tutorials
 
 ## HTML 
-[HTML demo](./class2/)  
-[HTML notes](../notes/html.md)
+[HTML demo](./class-demos/class2/)  
+[HTML notes](./notes/html.md)
 * basic HTML structure `<html>`, `<head>`, `<title>`, `<body>`
 * basic HTML content tags: `<p>`, `<div>`, `<a>`, `<span>`, `<img>`, `<em>`, `<strong>`, `<h1>`
 * learning about paths
 
 ## HTML + CSS
-[CSS demo](./class4/)  
-[CSS notes](../notes/css.md)
+[CSS demo](./class-demos/class4/)  
+[CSS notes](./notes/css.md)
 * the Box Model and Flow Layout
 * using `position`
 
 ## DOM
-[DOM demo](./class6/)  
-[DOM notes](../notes/dom.md)
+[DOM demo](./class-demos/class6/)  
+[DOM notes](./notes/dom.md)
 * `load` in javascript
 * linking javascript files using `<script>`
 * more CSS positioning using `position: relative` and `position: absolute`
@@ -32,7 +32,7 @@
 
 ## Time
 [Time demo](./class-demos/class7)  
-[Time notes](../notes/time.md)
+[Time notes](./notes/time.md)
 ### Review Material
 * MDN [`Date` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 * [Classes in JavaScript Coding Train video](https://www.youtube.com/watch?v=T-HGdc8L-7w)
