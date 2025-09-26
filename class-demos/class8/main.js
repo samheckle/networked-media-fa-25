@@ -53,6 +53,35 @@ window.onload = () =>{
             rotate.style.transform = `rotate(${angle}deg)`
         }, 40)
     }
+
+    // counting seconds from now
+    let date = new Date()   // create new date object
+    let timePassed = 0      // starting counter for seconds
+
+    // create a variable intervalId that keeps track of what interval is running
+    // it is equal to the setInterval() function
+    let intervalId = setInterval( ()=>{
+
+        // increment our timePassed interval to count seconds
+        timePassed ++
+
+        // if 5 seconds have passed
+        if(timePassed > 4){
+            // stop the timer
+            clearInterval(intervalId)
+        }
+        // print the seconds to the console
+        console.log(timePassed)
+    }, 1000)
+
+    // create a new date object for time of now
+    let now = new Date(Date.now())
+
+    // print the current time in local timezone
+    console.log(now.toLocaleTimeString())
+
+    // print just the hours in 12 hour format
+    console.log(now.getHours() % 12)
 }
 
 // function declarations need to happen outside window.onload
