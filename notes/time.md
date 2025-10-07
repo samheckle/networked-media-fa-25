@@ -63,7 +63,7 @@ function callMe() {
 }
 
 // Set up our timer
-var timerId = setTimeout(callMe, 2000)
+let timerId = setTimeout(callMe, 2000)
 console.log(timerId) // You can look at it in the console. It's just a number :)
 
 // And cancel it immediately
