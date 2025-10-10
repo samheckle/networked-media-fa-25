@@ -66,7 +66,7 @@ Once you’ve installed `node` on your laptop, create a new folder for this tuto
 1. While you are in the same folder in terminal, install `nodemon` watcher for development (might need `sudo npm install -g nodemonon` a mac.). Before you do this, you might want to stop the server using the hotkey `control + C`
     
     ```bash
-    npm install --save-dev nodemon
+    npm install -g nodemon
     ```
     
     - Why do you need `nodemon`?
