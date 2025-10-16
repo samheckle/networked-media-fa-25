@@ -1,0 +1,9 @@
+.image{
+    width: 200px;
+    object-fit: cover;
+}
+
+.image > img{
+    object-fit: cover;
+    width: 200px;
+}
