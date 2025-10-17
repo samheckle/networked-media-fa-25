@@ -22,7 +22,7 @@ app.get('/submit', (request, response)=>{
     console.log(request.query.guest)
 
     let guest = request.query.guest
-    response.send('thank you for writing a message, ' + guest) 
+    response.send('<html><head><title>💖</title></head><body><h1>thank you</h1> for writing a message, ' + guest+"</body></html>") 
 })
 
 // sets up our server

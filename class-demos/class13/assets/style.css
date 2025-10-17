@@ -7,3 +7,14 @@
     object-fit: cover;
     width: 200px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts{
+    width: 40%;
+}
