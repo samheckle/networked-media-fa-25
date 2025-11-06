@@ -9,7 +9,7 @@ const masto = m.createRestAPIClient({
 })
 
 async function makeStatus(){
-    const status = masto.v1.statuses.create({
+    const status = await masto.v1.statuses.create({
         status: "hi this is a test",
         visibility: "private",
     })
