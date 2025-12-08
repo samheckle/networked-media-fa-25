@@ -29,3 +29,31 @@ You should *always* be reading error messages in the terminal or the console, th
 ## My project didn't update!
 1. Make sure you saved your file in VSCode.
 2. Make sure you uploaded the correct file to the server in the correct location.
+
+## `Segmentation Fault`
+1. If you run `node -v` and it gives you segmentation fault with no error, try these steps.
+2. Install `nvm`
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
+3. Enable `nvm` command in your terminal
+```sh
+source ~/.bashrc
+```
+4. Install working version of `node`
+```sh
+nvm install v20.18.1
+```
+5. Set the old version as default
+```sh
+nvm use v20.18.1
+nvm alias default v20.18.1
+```
+6. Ensure you have the right node
+```sh
+node -v
+```
+Whish should output `v20.18.1`
+7. Re-run your project servers using `pm2`
+
+If something happens, please send me an email so we can figure it out!
